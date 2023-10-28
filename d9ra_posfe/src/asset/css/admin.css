@@ -1,0 +1,176 @@
+.sidebar {
+    height: 100vh; /* Chiều cao 100% của viewport */
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+ .custom-modal form input , textarea, select{
+    width: 90% !important;
+    background-color: #ffffff;
+    margin: 6px !important;
+}
+.btn-edit-product{
+    display: flex;
+    gap:290px;
+}
+.custom-modal label{
+    margin: 5 px !important;
+}
+.container-fluid-supplier{
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.row_show{
+    display: flex !important;
+}
+.card-supplier{
+    width: 80%;
+    padding:20px ;
+}
+
+.user_search{
+    display: flex;
+}
+.card-user{
+    width: 85%;
+    padding:20px ;
+}
+.container-fluid_category{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 0px ;
+}
+.card_category{
+    width: 80%;
+    padding:20px ;
+}
+.btn_product_add{
+    width: 100%;
+    display: flex;
+    gap:230px;
+    margin-top: -30px;
+}
+.container-fluid-product{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 0px ;
+}
+.container-fluid-discount{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 0px ;
+}
+.container-fluid-event{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 0px ;
+}
+.card-event{
+    width: 80%;
+    padding:20px ;
+}
+.card-discount{
+    width: 80%;
+    padding:20px ;
+}
+
+.sidebar a, .sidebar button {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover, .sidebar button:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #6d5050;
+}
+
+.dropdown-content a {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.navbar {
+    position: fixed;
+    top: 0;            /* Nằm sát trên cùng */
+    left: 0;           /* Sát lề trái */
+    right: 0;          /* Sát lề phải */
+    height: 80px;      /* Chiều cao của navbar */
+    z-index: 1030;     /* Để navbar ở trên các thành phần khác */
+    background-color: #6a9bbc;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 250px; /* Chiều rộng của sidebar */
+    z-index: 2;
+    
+}
+
+.navbar .navbar-collapse {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-item {
+    margin: 0 10px;
+}
+
+.navbar .nav-item a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.navbar .nav-item a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.nav-icon img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.mainadmin {
+    margin-bottom:  30px;
+    margin-left: 265px; /* Chiều rộng của sidebar (250px) + cách lề mong muốn (15px) */
+    margin-right: 50px;
+    margin-top: 30px;
+    padding-top: 0; /* Chiều cao của navbar (60px) + một chút khoảng trắng ở trên (15px) */
+    transition: 0.5s;
+    width: calc(100% - 265px); /* Tính toán chiều rộng của nội dung chính để trừ đi chiều rộng của sidebar và khoảng cách mong muốn */
+}
+
+
